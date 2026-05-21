@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mergemotion.app/sitemap.xml
