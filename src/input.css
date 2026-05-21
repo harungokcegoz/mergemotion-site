@@ -7,7 +7,7 @@
   max-width: 70ch;
   margin-left: auto;
   margin-right: auto;
-  color: #F5F5F7;
+  color: #FFFFFF;
   line-height: 1.75;
   font-size: 1rem;
   padding-top: 3rem;
@@ -22,7 +22,7 @@
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  color: #F5F5F7;
+  color: #FFFFFF;
 }
 
 .prose h2 {
@@ -30,7 +30,7 @@
   font-weight: 700;
   margin-top: 2.5rem;
   margin-bottom: 0.75rem;
-  color: #F5F5F7;
+  color: #FFFFFF;
   border-bottom: 1px solid rgba(255,255,255,0.08);
   padding-bottom: 0.4rem;
 }
@@ -40,13 +40,13 @@
   font-weight: 600;
   margin-top: 1.75rem;
   margin-bottom: 0.5rem;
-  color: #F5F5F7;
+  color: #FFFFFF;
 }
 
 .prose p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: rgba(245,245,247,0.80);
+  color: rgba(255,255,255,0.80);
 }
 
 .prose ul,
@@ -54,7 +54,7 @@
   margin-top: 0;
   margin-bottom: 1rem;
   padding-left: 1.5rem;
-  color: rgba(245,245,247,0.80);
+  color: rgba(255,255,255,0.80);
 }
 
 .prose li {
@@ -70,33 +70,33 @@
 }
 
 .prose strong {
-  color: #F5F5F7;
+  color: #FFFFFF;
   font-weight: 600;
 }
 
 .prose a {
-  color: #A855F7;
+  color: #FF8A4C;
   text-decoration: underline;
   text-underline-offset: 3px;
   transition: color 0.15s ease;
 }
 
 .prose a:hover {
-  color: #c084fc;
+  color: #FFA76B;
 }
 
 .prose code {
-  background: rgba(168,85,247,0.12);
-  border: 1px solid rgba(168,85,247,0.25);
+  background: rgba(255,138,76,0.12);
+  border: 1px solid rgba(255,138,76,0.25);
   border-radius: 4px;
   padding: 0.1em 0.35em;
   font-size: 0.875em;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  color: #c084fc;
+  color: #FFA76B;
 }
 
 .prose pre {
-  background: #14141B;
+  background: #16161A;
   border: 1px solid rgba(255,255,255,0.10);
   border-radius: 8px;
   padding: 1rem 1.25rem;
@@ -109,14 +109,14 @@
   border: none;
   padding: 0;
   font-size: 0.875em;
-  color: rgba(245,245,247,0.85);
+  color: rgba(255,255,255,0.85);
 }
 
 .prose blockquote {
-  border-left: 3px solid #7C3AED;
+  border-left: 3px solid #FF8A4C;
   padding-left: 1rem;
   margin-left: 0;
-  color: rgba(245,245,247,0.65);
+  color: rgba(255,255,255,0.65);
   font-style: italic;
 }
 
@@ -139,12 +139,12 @@
   border: 1px solid rgba(255,255,255,0.12);
   padding: 0.6rem 0.85rem;
   text-align: left;
-  color: rgba(245,245,247,0.80);
+  color: rgba(255,255,255,0.80);
 }
 
 .prose th {
   background: rgba(255,255,255,0.05);
-  color: #F5F5F7;
+  color: #FFFFFF;
   font-weight: 600;
 }
 
