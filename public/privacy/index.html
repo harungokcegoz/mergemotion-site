@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Merge</title>
+  <meta name="description" content="Merge privacy policy — how we collect, use, and protect your personal data.">
+  <link rel="canonical" href="https://mergemotion.app/privacy/">
+  <meta name="theme-color" content="#0A0A0F">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="icon" href="/assets/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="/css/tailwind-build.css">
+</head>
+<body class="tw-bg-ink tw-text-paper tw-font-display tw-antialiased">
+
+  <!-- NAV -->
+  <header class="tw-sticky tw-top-0 tw-z-50 tw-bg-ink/90 tw-backdrop-blur-md tw-border-b tw-border-white/10">
+    <nav class="tw-max-w-6xl tw-mx-auto tw-px-5 tw-flex tw-items-center tw-justify-between tw-h-16" aria-label="Main navigation">
+      <a href="/" class="tw-text-xl tw-font-bold tw-tracking-tight tw-text-paper">Merge</a>
+      <a href="/" class="tw-text-sm tw-text-paper/60 hover:tw-text-paper tw-transition-colors" aria-label="Back to home">
+        ← Home
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="prose">
+      <h1>Privacy Policy — Merge</h1>
+<p><strong>Effective Date:</strong> May 2026<br><strong>Last Updated:</strong> May 2026</p>
+<hr>
+<h2>1. Introduction</h2>
+<p>Merge (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is an AI-powered video generation app that lets you create motion-controlled videos using your photos and reference videos. This Privacy Policy explains what personal information we collect, how we use it, and your rights regarding your data.</p>
+<p>By using Merge, you agree to the practices described in this policy.</p>
+<hr>
+<h2>2. Information We Collect</h2>
+<h3>2.1 Account Information</h3>
+<p>When you sign in with Apple, we receive:</p>
+<ul>
+<li>Your Apple-provided user ID (a stable, anonymized identifier — not your Apple ID email unless you choose to share it)</li>
+<li>Your name (first time only, if you share it with the app)</li>
+<li>Your email address (only if you choose to share it — Apple may relay it through a private address)</li>
+</ul>
+<p>We do <strong>not</strong> receive your Apple ID password or any payment information from Apple.</p>
+<h3>2.2 Profile Information</h3>
+<p>Information you voluntarily provide:</p>
+<ul>
+<li>Display name and username</li>
+<li>Bio text</li>
+<li>Profile photo (avatar)</li>
+</ul>
+<h3>2.3 Content You Create</h3>
+<ul>
+<li><strong>Character photos:</strong> The images you select as your character source. These are sent to our third-party AI generation provider as base64-encoded data within a secure API call and are <strong>not stored on our servers</strong>. The provider may retain them temporarily per their own retention policy.</li>
+<li><strong>Reference motion videos:</strong> Videos you select as motion references. These are temporarily uploaded to Supabase Storage (under <code>temp/</code>) and automatically deleted once the AI provider has accepted the generation task (within seconds).</li>
+<li><strong>Generated videos:</strong> AI-generated videos. If you choose to <strong>publish</strong> a video, it is stored in Supabase Storage and appears in the public feed. If you choose to <strong>save privately</strong>, the video is saved only to your device.</li>
+</ul>
+<h3>2.4 Usage and Analytics</h3>
+<p>We use <strong>Mixpanel</strong> to collect anonymous usage analytics, including:</p>
+<ul>
+<li>Feature interactions (e.g., generation started, published, liked)</li>
+<li>App performance events</li>
+<li>Funnel and retention data</li>
+</ul>
+<p>Mixpanel data is associated with your Supabase user ID (not your name or email) unless you explicitly provide an email.</p>
+<h3>2.5 Purchase and Subscription Data</h3>
+<p>We use <strong>RevenueCat</strong> to process in-app purchases. RevenueCat receives:</p>
+<ul>
+<li>Your Apple App Account Token (anonymous purchase identifier)</li>
+<li>Product IDs and transaction IDs from Apple</li>
+<li>Your Supabase user ID (to match purchases to your account)</li>
+</ul>
+<p>We <strong>never</strong> see or store your full credit card or billing details — all payment processing is handled by Apple.</p>
+<h3>2.6 Technical Data</h3>
+<p>Automatically collected when you use the app:</p>
+<ul>
+<li>Device type and iOS version</li>
+<li>App version</li>
+<li>Crash and error reports (via Supabase error logging)</li>
+<li>API request logs (IP address, timestamp, endpoint — retained for 30 days)</li>
+</ul>
+<hr>
+<h2>3. How We Use Your Information</h2>
+<table>
+<thead>
+<tr>
+<th>Purpose</th>
+<th>Legal Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Creating and managing your account</td>
+<td>Contract performance</td>
+</tr>
+<tr>
+<td>Generating AI videos</td>
+<td>Contract performance</td>
+</tr>
+<tr>
+<td>Showing your content in the public feed (if published)</td>
+<td>Contract performance / Consent</td>
+</tr>
+<tr>
+<td>Processing credit purchases and subscriptions</td>
+<td>Contract performance</td>
+</tr>
+<tr>
+<td>Detecting and preventing abuse (rate limiting, fraud)</td>
+<td>Legitimate interest</td>
+</tr>
+<tr>
+<td>Analytics to improve the app</td>
+<td>Legitimate interest</td>
+</tr>
+<tr>
+<td>Responding to support requests</td>
+<td>Legitimate interest</td>
+</tr>
+<tr>
+<td>Legal compliance</td>
+<td>Legal obligation</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>4. Information We Share</h2>
+<p>We share data only as necessary to operate the service:</p>
+<table>
+<thead>
+<tr>
+<th>Recipient</th>
+<th>What is shared</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>AI generation provider</strong></td>
+<td>Character photo (base64), reference video URL, generation prompt</td>
+<td>AI video generation</td>
+</tr>
+<tr>
+<td><strong>Supabase</strong> (supabase.com)</td>
+<td>All database content, authentication, file storage</td>
+<td>Backend infrastructure</td>
+</tr>
+<tr>
+<td><strong>RevenueCat</strong> (revenuecat.com)</td>
+<td>User ID, product purchases</td>
+<td>Subscription and credit management</td>
+</tr>
+<tr>
+<td><strong>Mixpanel</strong> (mixpanel.com)</td>
+<td>Anonymous usage events</td>
+<td>Analytics</td>
+</tr>
+<tr>
+<td><strong>Google Cloud Run</strong></td>
+<td>API request data</td>
+<td>Backend hosting</td>
+</tr>
+</tbody>
+</table>
+<p>We do <strong>not</strong> sell your personal information to any third party.</p>
+<p>We may disclose information if required by law, court order, or to protect the rights and safety of our users.</p>
+<hr>
+<h2>5. Data Retention</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Retention Period</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account and profile data</td>
+<td>Until account deletion</td>
+</tr>
+<tr>
+<td>Published videos</td>
+<td>Until you delete or unpublish them</td>
+</tr>
+<tr>
+<td>Generation task records</td>
+<td>30 days (Provider CDN links expire; records are then purged)</td>
+</tr>
+<tr>
+<td>Credit transaction ledger</td>
+<td>7 years (financial record requirement)</td>
+</tr>
+<tr>
+<td>API request logs</td>
+<td>30 days</td>
+</tr>
+<tr>
+<td>Analytics data (Mixpanel)</td>
+<td>2 years</td>
+</tr>
+<tr>
+<td>Temp reference videos in storage</td>
+<td>Deleted within seconds of the AI provider accepting the task</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>6. Your Rights</h2>
+<p>You have the following rights regarding your personal data:</p>
+<ul>
+<li><strong>Access:</strong> Request a copy of the data we hold about you.</li>
+<li><strong>Correction:</strong> Request correction of inaccurate profile information (via the app&#39;s Edit Profile screen).</li>
+<li><strong>Deletion:</strong> Delete your account and all associated data at any time via <strong>Settings → Delete Account</strong> in the app. This permanently removes your auth account, profile, posts, credits, and storage files.</li>
+<li><strong>Data portability:</strong> Request an export of your data.</li>
+<li><strong>Withdraw consent:</strong> Disable analytics tracking by opting out of Mixpanel data collection (contact us).</li>
+</ul>
+<p>To exercise any of these rights, contact us at: <strong><a href="mailto:themistech@hotmail.com">themistech@hotmail.com</a></strong> (or the contact email provided in your App Store listing).</p>
+<hr>
+<h2>7. Children&#39;s Privacy</h2>
+<p>Merge is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, contact us immediately and we will delete it.</p>
+<hr>
+<h2>8. International Data Transfers</h2>
+<p>Our infrastructure providers (Supabase, Google Cloud, our AI generation provider, RevenueCat, Mixpanel) may process data in countries outside your own. Where required, we rely on Standard Contractual Clauses or equivalent mechanisms to ensure adequate protection.</p>
+<hr>
+<h2>9. Security</h2>
+<p>We protect your data using industry-standard security practices:</p>
+<ul>
+<li>HTTPS/TLS for all data in transit</li>
+<li>Supabase Row Level Security (RLS) ensuring users can only access their own data</li>
+<li>API keys and secrets stored in Google Secret Manager (never in source code)</li>
+<li>Supabase JWT authentication on all backend API calls</li>
+<li>Google Cloud Armor (WAF and DDoS protection)</li>
+</ul>
+<p>Despite our best efforts, no method of transmission over the internet is 100% secure.</p>
+<hr>
+<h2>10. Changes to This Policy</h2>
+<p>We may update this policy from time to time. We will notify you of material changes via an in-app notice or by updating the &quot;Last Updated&quot; date above. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+<hr>
+<h2>11. Contact Us</h2>
+<p>If you have questions, concerns, or requests related to this Privacy Policy, please contact us:</p>
+<p><strong>Email:</strong> <a href="mailto:themistech@hotmail.com">themistech@hotmail.com</a><br><strong>App:</strong> Merge — available on the Apple App Store</p>
+<hr>
+<p><em>This Privacy Policy was drafted for the Merge iOS app. It covers data processing as of the Effective Date above.</em></p>
+    </article>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="tw-bg-surface tw-border-t tw-border-white/10 tw-py-10 tw-px-5">
+    <div class="tw-max-w-6xl tw-mx-auto tw-flex tw-flex-col sm:tw-flex-row tw-items-center tw-justify-between tw-gap-4 tw-text-sm tw-text-paper/50">
+      <p>&copy; 2026 Merge. All rights reserved.</p>
+      <nav aria-label="Legal navigation">
+        <ul class="tw-flex tw-flex-wrap tw-gap-5 tw-list-none tw-m-0 tw-p-0" role="list">
+          <li><a href="/" class="hover:tw-text-paper/80 tw-transition-colors">Home</a></li>
+          <li><a href="/privacy/" class="hover:tw-text-paper/80 tw-transition-colors">Privacy</a></li>
+          <li><a href="/terms/" class="hover:tw-text-paper/80 tw-transition-colors">Terms</a></li>
+          <li><a href="/support/" class="hover:tw-text-paper/80 tw-transition-colors">Support</a></li>
+          <li><a href="mailto:themistech@hotmail.com" class="hover:tw-text-paper/80 tw-transition-colors">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
