@@ -1,0 +1,18 @@
+{
+  "name": "mergemotion-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/css/tailwind-build.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./public/css/tailwind-build.css --watch",
+    "deploy": "npm run build:css && npx wrangler pages deploy public --project-name=mergemotion --branch=main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
