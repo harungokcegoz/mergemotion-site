@@ -36,6 +36,10 @@
       // Move focus for accessibility
       target.setAttribute('tabindex', '-1');
       target.focus({ preventScroll: true });
+      target.addEventListener('blur', function onBlur() {
+        target.removeAttribute('tabindex');
+        target.removeEventListener('blur', onBlur);
+      }, { once: true });
     });
   });
 
@@ -63,13 +67,6 @@
   });
 
   /* ── Reveal-on-scroll (IntersectionObserver) ── */
-  var revealStyle = document.createElement('style');
-  revealStyle.textContent = [
-    '.reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.55s ease, transform 0.55s ease; }',
-    '.reveal.is-visible { opacity: 1; transform: translateY(0); }'
-  ].join('\n');
-  document.head.appendChild(revealStyle);
-
   if ('IntersectionObserver' in window) {
     var observer = new IntersectionObserver(
       function (entries) {
